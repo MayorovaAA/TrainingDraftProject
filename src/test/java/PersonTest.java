@@ -1,5 +1,5 @@
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.DataProvider; //ппп
 import org.testng.annotations.Test;
 
 public class PersonTest {

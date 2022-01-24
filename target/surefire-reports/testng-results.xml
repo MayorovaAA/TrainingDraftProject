@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
+<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-21T15:58:59 SAMT" name="Surefire suite" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="34">
+  <suite started-at="2022-01-24T17:38:19 SAMT" name="Surefire suite" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="39">
     <groups>
     </groups>
-    <test started-at="2022-01-21T15:58:59 SAMT" name="Surefire test" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="34">
+    <test started-at="2022-01-24T17:38:19 SAMT" name="Surefire test" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="39">
       <class name="PersonTest">
-        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@708f5957]" started-at="2022-01-21T15:58:59 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="6" status="FAIL">
+        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@1dde4cb2]" started-at="2022-01-24T17:38:19 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="7" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:976)
 at org.testng.Assert.assertEquals(Assert.java:1010)
-at PersonTest.testAge(PersonTest.java:23)
+at PersonTest.testAge(PersonTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,7 +71,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAge -->
-        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@708f5957]" started-at="2022-01-21T15:58:59 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="0" status="FAIL">
+        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@1dde4cb2]" started-at="2022-01-24T17:38:19 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:976)
 at org.testng.Assert.assertEquals(Assert.java:1010)
-at PersonTest.testAge(PersonTest.java:23)
+at PersonTest.testAge(PersonTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,7 +135,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAge -->
-        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@708f5957]" started-at="2022-01-21T15:58:59 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="0" status="FAIL">
+        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@1dde4cb2]" started-at="2022-01-24T17:38:19 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:976)
 at org.testng.Assert.assertEquals(Assert.java:1010)
-at PersonTest.testAge(PersonTest.java:23)
+at PersonTest.testAge(PersonTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -199,23 +199,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAge -->
-        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@708f5957]" started-at="2022-01-21T15:58:59 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAge -->
-        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@708f5957]" started-at="2022-01-21T15:58:59 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-21T15:58:59 SAMT" duration-ms="0" status="FAIL">
+        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@1dde4cb2]" started-at="2022-01-24T17:38:19 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -240,7 +224,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:976)
 at org.testng.Assert.assertEquals(Assert.java:1010)
-at PersonTest.testAge(PersonTest.java:23)
+at PersonTest.testAge(PersonTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -276,6 +260,38 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAge -->
+        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@1dde4cb2]" started-at="2022-01-24T17:38:19 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAge -->
+        <test-method signature="testAge(int,boolean)[pri:0, instance:PersonTest@1dde4cb2]" started-at="2022-01-24T17:38:19 SAMT" name="testAge" data-provider="ageDataProvider" finished-at="2022-01-24T17:38:19 SAMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAge -->
